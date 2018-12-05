@@ -1,0 +1,90 @@
+body,html
+{
+    height: 100%;
+    margin: 0;
+}
+.dropdownbox {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownbox-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdownbox:hover .dropdownbox-content {
+    display: block;
+}
+.dropdownbox-content>li>a:focus, .dropdownbox-content>li>a:hover {
+  color: white;
+  background-color: #C0D9D9;
+}
+
+div.gallery {
+    margin: 10px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    height: 240px;
+    width: 260px;
+}
+
+div.desc {
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+	overflow: hidden;
+}
+
+#footer
+{
+    background-color: #CACACA;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  color: white;
+  background-color: #C0D9D9;
+}
+#bus
+{
+    background-image: url("../bus.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#train
+{
+    background-image: url("../train.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#flight
+{
+    background-image: url("../flight.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.image
+{
+    margin: 1px;
+}
+
